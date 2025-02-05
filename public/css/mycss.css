@@ -1,0 +1,58 @@
+.card-login{
+    width: 420px;    
+    padding:50px 30px;
+    background-color:#ffffff;
+}
+.bg-login{
+    background-color:#f1f1f1
+}
+.rating {
+    display: flex;        
+    justify-content: center;
+    
+  }
+  .rating input {
+    display: none;
+  }
+  .rating label {
+    font-size: 4rem;
+    color: gray;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  .rating input:checked ~ label,
+  .rating label:hover,
+  .rating label:hover ~ label {
+    color: rgb(255, 187, 0);
+  }
+.-mt-5{
+  margin-top: -3em;
+}
+
+@font-face{
+  font-family:'Carmorant';
+  src:url('public/CormorantUnicaseRegular.ttf')
+}
+.h{
+  font-family:Carmorant;
+}
+.h-body{
+  background-color:rgb(59,75,65);
+  color:rgb(234,224,213);  
+}
+.btn-custom{  
+  background-color:rgb(89, 134, 97);
+  color:rgb(234,224,213);
+  transition:all 500ms ease-in-out;
+}
+.btn-custom:hover{
+  background-color:rgb(107, 134, 112);
+  color:rgb(234,224,213);  
+}
+.btn-custom:active{
+  background-color:rgb(107, 134, 112);
+  color:rgb(234,224,213);  
+}
+.active-custom{
+  background-color:rgb(218, 230, 255);
+}
